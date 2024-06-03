@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>tes</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.10.377/pdf.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/konva@8.3.3/konva.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+
+    <div class="controls">
+        <button id="previous" class="previous">&laquo; Previous</button>
+        <p id="pageNumber">Page 1 of 1</p>
+        <button id="next" class="next">Next &raquo;</button>
+        <input type="file" id="imageLoader" name="imageLoader" />
+        <button id="submit" class="hidden">Submit Image</button>
+        <button id="download" class="hidden">Download PDF</button>
+    </div>
+
+    <div id="pdf-container">
+        <canvas id="canvas"></canvas>
+        <div id="konva-container"></div>
+    </div>
+
+<script src="JS/app.js"></script>
+</body>
+</html>

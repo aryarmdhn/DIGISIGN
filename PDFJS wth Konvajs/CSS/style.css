@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+}
+
+#pdf-container {
+    position: relative;
+    display: inline-block;
+}
+
+#canvas {
+    display: block;
+}
+
+#konva-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.hidden {
+    display: none;
+}
